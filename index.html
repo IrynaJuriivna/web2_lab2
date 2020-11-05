@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <title>Завдання 1</title>
+</head>
+
+<body>
+    <header>
+        <h1>Лабораторна робота №2</h1>
+        <h3>Варіант - 3</h3>
+    </header>
+
+    <div class="container ">
+        <h3>Завдання 1</h3>
+        <p>
+            num mod 6 + 1 = 21 % 6 + 1 = <span id="var_c"></span>
+        </p>
+
+        <hr>
+
+        <h3>Завдання 2</h3>
+        <h4>Довжина катета прямокутного трикутника:<img src="mimetex2.png"></h4>
+        <h5>Введіть довжину катета та гіпотенузи:</h5>
+        <p> Гіпотенуза С:
+            <input type="number" id="var_a" onkeypress="return event.charCode >= 48" min="0" value="5">
+        </p>
+        <p> Катет B:
+            <input type="number" id="var_b" onkeypress="return event.charCode >= 48" min="0" value="3">
+        </p>
+        <p class="but">
+            <button id="calc" onclick="calc_click()">Порахувати</button>
+        </p>
+        <h5> Результат:<span id="var_x"></span> </h5>
+
+        <hr>
+
+        <h3>Завдання 3</h3>
+        <div class="justify-content-center triangle"></div>
+    </div>
+    <script src="script.js"></script>
+    <script src="script2.js"></script>
+</body>
+</html>
