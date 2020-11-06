@@ -30,10 +30,10 @@
         <h4>Довжина гіпотенузи прямокутного трикутника:</h4>
         <h5>Введіть довжину двох катетів:</h5>
         <p> Катет А:
-            <input type="number" id="var_a" onkeypress="return event.charCode >= 48" min="0" value="5">
+            <input type="number" id="var_a" step="0.01" min="0" value="5">
         </p>
         <p> Катет B:
-            <input type="number" id="var_b" onkeypress="return event.charCode >= 48" min="0" value="3">
+            <input type="number" id="var_b" step="0.01" min="0" value="3">
         </p>
         <p class="but">
             <button id="calc" onclick="calc_click()">Порахувати</button>
