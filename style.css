@@ -37,10 +37,9 @@ hr {
     height: 3px; 
 }
 .triangle {
-    width: 50%; 
     height: 0;
     border-top: 100px solid transparent;
-    border-right: 70px solid rgb(224, 72, 72);
+    border-left: 70px solid rgb(224, 72, 72);
     border-bottom: 100px solid transparent;
     margin-bottom: 30px;
 }
